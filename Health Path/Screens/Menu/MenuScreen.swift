@@ -95,9 +95,7 @@ extension MenuScreen {
 
 // MARK: - Screens
 
-extension MenuScreen {
-    
-}
+extension MenuScreen { }
 
 // MARK: - Previews
 

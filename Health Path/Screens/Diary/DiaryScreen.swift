@@ -54,9 +54,7 @@ extension DiaryScreen {
 
 // MARK: - Screens
 
-extension DiaryScreen {
-    
-}
+extension DiaryScreen { }
 
 // MARK: - Previews
 

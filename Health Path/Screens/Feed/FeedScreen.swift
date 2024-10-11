@@ -53,9 +53,7 @@ extension FeedScreen {
 
 // MARK: - Screens
 
-extension FeedScreen {
-    
-}
+extension FeedScreen { }
 
 // MARK: - Previews
 

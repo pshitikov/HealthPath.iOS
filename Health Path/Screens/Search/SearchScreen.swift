@@ -53,9 +53,7 @@ extension SearchScreen {
 
 // MARK: - Screens
 
-extension SearchScreen {
-    
-}
+extension SearchScreen { }
 
 // MARK: - Previews
 

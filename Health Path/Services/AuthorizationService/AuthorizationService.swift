@@ -116,7 +116,7 @@ final class AuthorizationService {
     }
     
     func signOut() async throws {
-        guard let userId else { throw NSError() }
+        guard let userId else { throw AppError.userIsNotAuthorized }
         
         do {
             try await authProvider.async.request(.signOut(userId: userId))

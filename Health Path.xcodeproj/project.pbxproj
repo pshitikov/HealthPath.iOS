@@ -80,6 +80,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				8473F2B92CB9CD9D00E97212 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				8473F0432CB9BB2300E97212 /* Health Path */,
@@ -164,6 +165,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8473F2B92CB9CD9D00E97212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 8473F2B82CB9CD9D00E97212 /* SwiftLintBuildToolPlugin */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8473F04D2CB9BB2400E97212 /* Debug */ = {
@@ -486,6 +494,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8473F2452CB9C32700E97212 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
 			productName = PhoneNumberKit;
+		};
+		8473F2B82CB9CD9D00E97212 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8473F2442CB9C31000E97212 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
